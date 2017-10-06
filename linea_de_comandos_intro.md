@@ -6,7 +6,25 @@ Con este artículo quiero enseñarte las partes mas fundamentales de la terminal
 
 ## Manipulación del Filesystem
 
-cd, ls, mkdir, touch, cp, rm, pwd, tree
+Probablemente estas acostumbrado a manipular archivos en tu computadora usando un programa visual como el "Finder" en mac o "Nautilus" en Ubuntu. Te tengo buenas noticias, no tienes seguir arrastrando archivos con el mouse. Puedes manipular todo lo que esta en tu "filesystem" usando la terminal.
+
+---
+
+Pregunta: ¿Qué es el filesystem?
+
+Filesystem se traslada en español a sistema de archivos. Es un componente de tu sistema operativo que se encarga de organizar la memoria de tu computadora. Cada vez que creas o editas un archivo, el filesystem se encarga de grabar los cambios en el disco (o memoria flash si tu computadora es mas reciente). Puedes pensar en el filesystem como un bibliotecario que se recuerda perfectamente donde esta cada libro en su biblioteca.
+
+---
+
+- Abré tu terminal y empecemos a navegar usando los comandos básicos de navegación: `ls`, `cd`, y `tree`.
+
+=> Explica como funcionan estos tres mediante un video?
+
+- Puedes crear directios usando `mkdir`.
+- Puedes crear archivos usando `touch`.
+- Puedes copiar archivos usando `cp`.
+- Puedes borrar archivos y directorios usando `rm`.
+- Puedes ver tu locación actual en el filesystem usando `pwd`.
 
 ## Búsqueda de archivos y Texto
 
