@@ -1,6 +1,6 @@
 # No le tengas miedo a La línea de comandos de Linux
 
-Si has visto cursos y videos de Appdelante habrás notado que usamos la línea de comandos (tambien llamada la terminal) en muchas ocasiones. A primera instancia, esta herramienta parece difícil de aprender, por lo cual muchos desarrolladores solo tienen un entendimineto básico de para que sirve y como usarla. **Esto es gran error! Si inviertes tiempo en dominar las partes esenciales de la terminal lograrás ver lo poderosa que es** - tendrás control absoluto sobre tu computadora.
+Si has visto cursos y videos de Appdelante habrás notado que usamos la línea de comandos (tambien llamada la terminal) en muchas ocasiones. A primera instancia, aprender como usar esta herramienta te parecera muy abrumador. Yo recuerdo la primera vez que abrí una terminal, fue como entrar a una biblioteca donde no tienen ningun libro en español y te obligan a leer al revés. Por decir poco, fue muy desalentador. Pero a lo largo de mi carrera invertí tiempo en dominar las partes esenciales, hasta el punto en que la terminal es la primer herramienta que abró cada mañana en mi trabajo.
 
 Con este artículo quiero enseñarte las partes mas fundamentales de la terminal. No perderemos tiempo con comandos que nunca usarás. Te voy a enseñar lo que yo uso en mi día a día.
 
