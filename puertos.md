@@ -11,11 +11,7 @@ app.listen(3000, function() {
 })
 ```
 
-Si alguien te preguntara lo siguiente, ¿Qué responderías?
-
-> "Oh gran programador [Inserta tu nombre aquí], puedes explicarme que son los puertos?"
-
-Mi respuesta hace unos años hubiese sido algo como lo que sigue:
+Si alguien te preguntara qué son los puertos, ¿Qué responderías? Mi respuesta hace unos años hubiese sido algo como lo que sigue:
 
 > "Hmmm, tiene algo que ver con el networking. En el caso de un servidor web, necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP."
 
@@ -23,10 +19,10 @@ Mi respuesta hace unos años hubiese sido algo como lo que sigue:
 
 - ¿Un puerto es una abstracción de software, o algo físico en mi hardware?
 - ¿Cuantos puertos existen en mi computadora?
-- ¿Por qué es común elegir el puerto numero 3000 cuando escribimos código?
+- ¿Por qué es común elegir el puerto número 3000 cuando escribimos código?
 - *¿Realmente qué es un puerto?*
 
-__Dejemos de hablar de conversaciones inventadas y respondamos estas preguntas!__
+Con este artículo voy a 
 
 ## El origen de los puertos
 
