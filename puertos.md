@@ -11,31 +11,30 @@ app.listen(3000, function() {
 })
 ```
 
-Si alguien te dijera lo siguiente, ¿Qué responderías?
-
+Si alguien te preguntara lo siguiente, ¿Qué responderías?
 
 > "Oh gran programador [Inserta tu nombre aquí], puedes explicarme que son los puertos?"
 
 Mi respuesta hace unos años hubiese sido algo como lo que sigue:
 
-> "Hmmm, tiene algo que ver con el networking. En el caso de un servidor web necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP"
+> "Hmmm, tiene algo que ver con el networking. En el caso de un servidor web, necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP."
 
-¿Cuál es le problema con esta respuesta? ¡No respondí la pregunta! Solo dije algo genérico acerca de los servidores web y el networking. La persona que me hiciese esta pregunta probablemente esperaría que yo hablara de lo siguiente:
+¿Cuál es el problema con esa respuesta? ¡Pues que no respondí la pregunta! Solo dije algo genérico acerca de los servidores web y el networking. Una buena explicación debe dar respuesta a las siguientes preguntas:
 
-- ¿Es una abstracción de software o acaso los puertos son algo físico en mi hardware?
+- ¿Un puerto es una abstracción de software, o algo físico en mi hardware?
 - ¿Cuantos puertos existen en mi computadora?
-- ¿Por qué elegimos el numero 3000 comúnmente cuando desarrollamos?
+- ¿Por qué es común elegir el puerto numero 3000 cuando escribimos código?
 - *¿Realmente qué es un puerto?*
 
-Dejemos de hablar de conversaciones inventadas y respondamos estas preguntas!
+__Dejemos de hablar de conversaciones inventadas y respondamos estas preguntas!__
 
 ## El origen de los puertos
 
 Repasemos por un momento el concepto más fundamental de la internet: **las direcciones**. 
 
-Todo en la web tiene una dirección, justo como en tu ciudad cada casa y negocio tiene una dirección. Esta abstracción que inventamos los humanos es lo que permite al servicio de correo hacer llegar cartas y paquetes a tu casa. La web funciona exactamente igual. Todos los dispositivos desde smartphones hasta laptops y servidores tienen una dirección de IP. ¡El servidor de Appdelante usa tu dirección de IP para hacerte llegar unos paquetes conteniendo esta página web que estas leyendo!
+Todo en la web tiene una dirección, justo como en tu ciudad cada edificio tiene una dirección. Esta abstracción que inventamos los humanos es lo que permite al servicio de correo hacer llegar cartas y paquetes a tu casa. La web funciona exactamente igual. __Todos los dispositivos, desde smartphones hasta laptops y servidores, tienen una dirección de IP__. ¡El servidor de Appdelante usa tu dirección de IP para mandarte los paquetes que contienen la página web que estas leyendo en este instante!
 
-Hace mucho tiempo, las computadoras solo podían correr un programa a la vez. Esto significa que con solo tener la dirección IP de otro dispositivo podías hacerle llegar paquetes de información a ese único programa.
+Hace mucho tiempo, las computadoras solo podían correr un programa a la vez. Esto significa que con solo tener la dirección IP de otro dispositivo, podías hacerle llegar paquetes de información a ese único programa.
 
 <p align="center">
   <img src="https://github.com/macadev/Appdelante-Articulos/blob/master/imagenes/ports_explained.png"/>
@@ -51,7 +50,7 @@ A medida que las computadoras se hicieron más rápidas surgió la posibilidad d
   <img src="https://github.com/macadev/Appdelante-Articulos/blob/master/imagenes/ports_explained_2.png"/>
 </p>
 
-Sin el concepto de un puerto tu sistema operativo no sabría a que proceso entregarle un paquete que llega por la red. Es como si llegaran cartas a un edifico que sin indicar el número de apartamento. ¿Cómo el concierge sabe a que apartamento entregarle cada carta?
+Sin el concepto de un puerto tu sistema operativo no sabría a que proceso entregarle un paquete que llega por la red. Es como si llegara una carta a un edifico sin indicar el número del apartamento al que esta destinada. ¿Cómo sabría el cartero a quien entregarle la carta?
 
 ## ¿Cómo son asignados los puertos?
 
@@ -63,11 +62,11 @@ El número de puerto que te otorga el sistema operativo es aleatorio. Sin embarg
 
 Los puertos reservados son también llamados "puertos bien conocidos". Estos son algunos números que a lo largo de la historia se asociaron con ciertos protocólos y se volvieron el "estándar". Algunos ejemplos:
 
-- Los servidores web escuchan en el puerto 80. Este es el puerto usado comúnmente para el protocolo HTTP
-- Si el tráfico web es seguro, se utliza el puerto 443 para el protocolo HTTPS
-- El puerto 22 es comúnmente usado para establecer conexiones por SSH
+- Los servidores web escuchan en el puerto 80. Este es el puerto usado comúnmente para el protocolo HTTP.
+- Si el tráfico web es seguro, se utliza el puerto 443 para el protocolo HTTPS.
+- El puerto 22 es comúnmente usado para establecer conexiones por SSH.
 
-Estos son solo unos ejemplos, hay muchos mas puertos reservados. Es importante saber que estos protocolos no requieren estos puertos específicos para funcionar, pero el adoptar estos estándares nos quita un dolor de cabeza a todos los programadores. Imagina si no hubiese un puerto estándar para HTTP. Tendrías que escribir URLs como www.google.com:56799 para accesar servidores en el puerto que están escuchando. ¡Eso sería horrible!
+Estos son solo unos ejemplos, hay muchos otros puertos reservados. Es importante saber que estos protocolos no requieren estos puertos específicos para funcionar, pero adoptar estos estándares nos quita un dolor de cabeza a todos los programadores. Imagina si no hubiese un puerto estándar para HTTP. Tendrías que escribir URLs como www.google.com:56799 para accesar servidores en el puerto que están escuchando. ¡Eso sería horrible!
 
 ## ¿Cuántos puertos tiene mi computadora?
 
@@ -87,19 +86,10 @@ El siguiente ejemplo te va ayudar a entender como tu computadora usa los puertos
 * Un pedido es preparado para ser enviado al servidor de Appdelante. Este pedido incluye:
 	*  Tu dirección IP: 192.168.1.101
 	*  Un numero de puerto que te otorga el sistema operativo de forma aleatoria. Por ejemplo: 53672
-*  El pedido viaja por la internet al servidor de Appdelante (aqui hay muchos detalles que no voy a explicar en este artículo)
+*  El pedido viaja por la internet al servidor de Appdelante (aqui hay muchos detalles que no voy a explicar en este artículo).
 *  El servidor obtiene el paquete y prepara una respuesta, la cual indica que la combinación de tu IP y puerto son la destinación.
 *  La respuesta viaja por el internet a tu dispositivo.
-*  Tu sistema operativo empieza a procesar la respuesta y se da cuenta hay un programa esperando una respuesta en el puerto 53672, justo el que espicifica el paquete que acaba de arrivar.
+*  Tu sistema operativo empieza a procesar la respuesta y se da cuenta de que hay un programa esperando una respuesta en el puerto 53672, justo el que especifica el paquete que acaba de arrivar.
 *  El sistema operativo le pasa el contenido del paquete a tu browser.
 *  Tu browser te muestra el home page de Appdelante.
 *  El puerto que tu browser uso para hacer el pedido es liberado. El sistema operativo ahora se lo puede asignar a otro programa que quiera comunicarse por la internet. 
-
-
-
-
-
-
-
-
-
