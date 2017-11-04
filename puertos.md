@@ -22,7 +22,7 @@ Si alguien te preguntara qué son los puertos, ¿Qué responderías? Mi respuest
 - ¿Por qué es común elegir el puerto número 3000 cuando escribimos código?
 - *¿Realmente qué es un puerto?*
 
-Con este artículo voy a 
+Con este artículo voy a responder estas preguntas. 
 
 ## El origen de los puertos
 
