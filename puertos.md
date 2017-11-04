@@ -45,13 +45,11 @@ A medida que las computadoras se hicieron más rápidas surgió la posibilidad d
 
 > ¿Cómo nos aseguramos que los paquetes destinados a WhatsApp lleguen a ella y los paquetes destinados al Browser lleguen a el?
 
-¡De aquí surge la abstracción de los puertos! Eventualmente los ingenieros trabajando en la web se encontraron con este problema. Su respuesta fue inventar el concepto de un puerto, que es simplemente una ficción que utilizamos para poder determinar quien debe obtener un paquete. Ahora nuestro diagrama se ve así:
+¡De aquí surge la la necesidad de los puertos! Eventualmente los ingenieros trabajando en la web se encontraron con este problema. Su respuesta fue inventar el concepto de un puerto, que es simplemente una abstracción de software que utilizamos para poder determinar quien debe obtener un paquete. El diagrama de abajo muestra a una laptop hablando con un servidor web a través de unos puertos:
 
-----                                        ----
-Dibujo de dinosaurio usando              Servidor
-computadora vieja        --------->  (160.168.1.101:3000)
-   (192.168.1.101:3500)
----                                         ----
+<p align="center">
+  <img src="https://github.com/macadev/Appdelante-Articulos/blob/master/imagenes/ports_explained_2.png"/>
+</p>
 
 Sin el concepto de un puerto tu sistema operativo no sabría a que proceso entregarle un paquete que llega por la red. Es como si llegaran cartas a un edifico que sin indicar el número de apartamento. ¿Cómo el concierge sabe a que apartamento entregarle cada carta?
 
