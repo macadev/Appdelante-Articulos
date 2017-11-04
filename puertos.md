@@ -37,11 +37,9 @@ Todo en la web tiene una dirección, justo como en tu ciudad cada casa y negocio
 
 Hace mucho tiempo, las computadoras solo podían correr un programa a la vez. Esto significa que con solo tener la dirección IP de otro dispositivo podías hacerle llegar paquetes de información a ese único programa.
 
-----                                        ----
-Dibujo de dinosaurio usando          Otro dinosaurio
-computadora vieja        --------->  (160.168.1.101)
-   (192.168.1.101)
----                                         ----
+<p align="center">
+  <img src="https://github.com/macadev/Appdelante-Articulos/blob/master/imagenes/ports_explained.png"/>
+</p>
 
 A medida que las computadoras se hicieron más rápidas surgió la posibilidad de correr muchos programas al mismo tiempo. No solo eso, sino que todos ellos pueden estar enviando paquetes al internet simúltaneamente. Por ejemplo, en tu browser puedes estar leyendo este artículo mientras tienes a la aplicación de WhatsApp abierta en tu Desktop. De aquí surge una pregunta bastante sencilla:
 
