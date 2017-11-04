@@ -33,7 +33,7 @@ Dejemos de hablar de conversaciones inventadas y respondamos estas preguntas!
 
 Repasemos por un momento el concepto más fundamental de la internet: **las direcciones**. 
 
-Todo en la web tiene una dirección, justo como en tu ciudad cada casa y negocio tiene una dirección. Esta abstracción que inventamos los humanos es lo que permite al servicio de correo hacer llegar cartas y paquetes a tu casa. La web funciona exactamente igual. Todos los dispositivos desde smartphones hasta laptops y servidores tienen una dirección de IP. El servidor de appdelante usa tu dirección de IP para hacerte llegar unos paquetes conteniendo esta página web que estas leyendo!
+Todo en la web tiene una dirección, justo como en tu ciudad cada casa y negocio tiene una dirección. Esta abstracción que inventamos los humanos es lo que permite al servicio de correo hacer llegar cartas y paquetes a tu casa. La web funciona exactamente igual. Todos los dispositivos desde smartphones hasta laptops y servidores tienen una dirección de IP. El servidor de Appdelante usa tu dirección de IP para hacerte llegar unos paquetes conteniendo esta página web que estas leyendo!
 
 Hace mucho tiempo, las computadoras solo podían correr un programa a la vez. Esto significa que con solo tener la dirección IP de otro dispositivo podías hacerle llegar paquetes de información a ese único programa.
 
@@ -54,6 +54,36 @@ Dibujo de dinosaurio usando              Servidor
 computadora vieja        --------->  (160.168.1.101:3000)
    (192.168.1.101:3500)
 ---                                         ----
+
+Sin el concepto de un puerto tu sistema operativo no sabría a que proceso entregarle un paquete que llega por la red. Es como si llegaran cartas a un edifico que no indican el número de apartamento. ¿Cómo el concierge sabe a que apartamento entregarle el paquete?
+
+## ¿Cómo son asignados los puertos?
+
+Los puertos son asignados por el sistema operativo de tu dispositivo cada vez que un proceso va a hacer un pedido por la internet. Por ejemplo, cuando abres una página web tu navegador le pide al sistema operativo un puerto para poder recibir la respuesta del pedido que va a ser enviado.
+
+El número de puerto que te otorga el sistema operativo es aleatorio. Sin embargo hay algunos puertos que son reservados por el sistema para ciertos protocolos y usos.
+
+## ¿Cuáles son los puertos reservados?
+
+Los puertos reservados son también llamados "puertos bien conocidos". Estos son algunos números que a lo largo de la historia se asociaron con ciertos protocólos y se volvieron el "estándar". Algunos ejemplos:
+
+- Los servidores web escuchan en el puerto 80. Este es el puerto usado comúnmente para el protocolo HTTP
+- Si el tráfico web es seguro, se utliza el puert 443 para el protcolo HTTPS
+- El puerto 22 es comúnmente usado para establecer conexiones por SSH
+
+Estos son solo unos ejemplos. Es importante saber que estos protocolos no requieren estos puertos para funcionar, pero el adoptar estos estándares nos quita un dolor de cabeza a todos los programadores. Imagina si no hubiese un puerto estándar para HTTP. Tendrías que escribir URLs como www.google.com:56799 para accesar servidores en el puerto que están escuchando. ¡Eso sería una ladilla!
+
+## ¿Cuántos puertos tiene mi computadora?
+
+Los números de puerto estan compuestos por 16 bits y no son signados. Esto significa que tu sistema operativo puede asignar 2^16 - 1 = 65,535 puertos.
+
+## ¿Eso significa que mi computadara solo puede abrir 65,535 conexiones?
+
+¡No! Aquí hay un detalle crucial. El número de conexiones que tu computadora puede establecer no esta relacionado al número de puertos. Piensa por ejemplo en un servidor web escuchando en el puerto 80. Es posible que miles de computadoras esten hablando con ese servidor. No es raro escuchar de servidores web que son capaces de procesar 100,000 conexiones simultáneas, todas en un solo puerto.
+
+Esto es un poco intuitivo. Asegurate de separar en tu cabeza las ideas de puertos y conexiones. ¡Son dos cosas totalmente distintas!
+
+## Un ejemplo concreto
 
 El siguiente ejemplo te va ayudar a entender como tu computadora usa los puertos:
 
