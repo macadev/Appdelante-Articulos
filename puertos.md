@@ -77,7 +77,7 @@ Los números de puerto estan compuestos por 16 bits y no son signados. Esto sign
 
 ¡No! Aquí hay un detalle crucial. El número de conexiones que tu computadora puede establecer no esta relacionado al número de puertos. Piensa por ejemplo en un servidor web escuchando en el puerto 80. Es posible que miles de computadoras esten hablando con ese servidor. No es raro escuchar de servidores web que son capaces de procesar 100,000 conexiones simultáneas, todas en un solo puerto.
 
-Al principio esto te parecerá difícil de entender. Asegurate de separar en tu cabeza las ideas de puertos y conexiones. ¡Son dos cosas totalmente distintas!
+Al principio esto te parecerá difícil de entender. Asegúrate de separar en tu cabeza las ideas de puertos y conexiones. ¡Son dos cosas totalmente distintas!
 
 ## Un ejemplo concreto
 
