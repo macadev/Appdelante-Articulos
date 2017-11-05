@@ -5,7 +5,6 @@
 # ¿Qué son los puertos?
 
 Probablemente has escrito algo similar a lo siguiente cientos de veces:
-
 ```
 var express = require('express')
 var app = express()
