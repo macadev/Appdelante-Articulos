@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/macadev/Appdelante-Articulos/blob/master/imagenes/puertos_banner.png"/>
+</p>
+
 # ¿Qué son los puertos?
 
 Probablemente has escrito algo similar a lo siguiente cientos de veces:
