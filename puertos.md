@@ -13,7 +13,7 @@ app.listen(3000, function() {
 	console.log("Escuchando en el puerto 3000")
 })
 ```
-Muchos no saben qué es ese número 3000 más allá de que se llama un puerto. Si hace unos años me preguntaras qué es un puerto, mi respuesta sería:
+Muchos no saben qué es ese número 3000 más allá de que se llama un puerto. Si hace unos años me preguntaras qué es un puerto, mi respuesta hubiese sido:
 
 > "Hmmm, tiene algo que ver con el networking. En el caso de un servidor web, necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP."
 
