@@ -93,7 +93,7 @@ Imagina si un usuario malévolo tratase de cambiar el proceso para SSH por el pu
 
 ## ¿Cuantos puertos tiene mi computadora?
 
-Los números de puerto están compuestos por 16 bits y no son signados. Esto significa que tu sistema operativo puede asignar 2^16 - 1 = 65,535 puertos.
+Los números de puerto están compuestos por 16 bits y no son signados, lo cual significa que tu sistema operativo puede asignar 2^16 - 1 = 65,535 puertos.
 
 ## ¿Eso significa que mi computadora solo puede abrir 65,535 conexiones simultáneas?
 
