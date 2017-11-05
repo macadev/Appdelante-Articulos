@@ -55,7 +55,7 @@ Sin el concepto de un puerto tu sistema operativo no sabría a qué proceso entr
 
 Los puertos son asignados por el sistema operativo de tu dispositivo cada vez que un proceso va a hacer un pedido por la internet. Por ejemplo, cuando abres una página web, tu navegador le pide al sistema operativo un puerto para poder recibir la respuesta del pedido que va a enviar. Luego de recibir la respuesta, el proceso libera el puerto para que el sistema operativo lo pueda volver a asignar.
 
-El número de puerto que te otorga el sistema operativo es aleatorio. Sin embargo hay algunos puertos que son reservados por el sistema para ciertos protocolos y usos.
+El número de puerto que te otorga el sistema operativo es aleatorio. Sin embargo, hay algunos puertos que son reservados por el sistema para ciertos protocolos y usos.
 
 ## ¿Cuáles son los puertos reservados?
 
