@@ -5,6 +5,7 @@
 # ¿Qué son los puertos?
 
 Probablemente has escrito algo similar a lo siguiente cientos de veces:
+
 ```
 var express = require('express')
 var app = express()
@@ -13,11 +14,13 @@ app.listen(3000, function() {
 	console.log("Escuchando en el puerto 3000")
 })
 ```
-Muchos no saben qué es ese número 3000 más allá de que se llama un puerto. Si hace unos años me preguntaras qué es un puerto, mi respuesta hubiese sido:
+¿Qué es ese número 3000? La respuesta de muchos sería:
 
-> "Hmmm, tiene algo que ver con el networking. En el caso de un servidor web, necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP."
+> "Es un puerto. Tiene algo que ver con el networking. En el caso de un servidor web, necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP."
 
-Sin duda alguna, una respuesta bastante incompleta. En este artículo vamos a explorar los puertos en detalle para responder las siguientes preguntas:
+Esta repuesta responde a la pregunta: ¿Para qué usamos los puertos? Pero yo consideró que muchos no saben la respuesta a ¿Qué es un puerto?
+
+Esta pregunta es el enfoque principal de este artículo. Vamos a  explorar los puertos en detalle para responder lo siguiente:
 
 - ¿Un puerto es una abstracción de software, o algo físico en mi hardware?
 - ¿Cuantos puertos existen en mi computadora?
