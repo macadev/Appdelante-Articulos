@@ -5,7 +5,6 @@
 # ¿Qué son los puertos?
 
 Probablemente has escrito algo similar a lo siguiente cientos de veces:
-
 ```
 var express = require('express')
 var app = express()
@@ -14,7 +13,7 @@ app.listen(3000, function() {
 	console.log("Escuchando en el puerto 3000")
 })
 ```
-Muchos de nosotros no dedicamos el tiempo a entender qué es ese número 3000 mas allá de saber que se llama un puerto. Sin embargo, aprendimos a utilizarlos en nuestro a día a día sin pensar mucho en ellos. Si hace unos años me preguntaras qué es un puerto, mi respuesta sería:
+Muchos de nosotros no dedicamos el tiempo a entender qué es ese número 3000 mas allá de saber que se llama un puerto. Sin embargo, aprendimos a utilizarlos en nuestro día a día sin pensar mucho en ellos. Si hace algunos años me hubieses preguntado qué es un puerto, mi respuesta hubiera sido:
 
 > "Hmmm, tiene algo que ver con el networking. En el caso de un servidor web, necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP."
 
