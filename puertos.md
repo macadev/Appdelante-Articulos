@@ -18,11 +18,9 @@ app.listen(3000, function() {
 
 > "Es un puerto. Tiene algo que ver con el networking. En el caso de un servidor web, necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP."
 
-Sus explicaciones dejan claro que saben como usar un puerto, pero que no están muy seguros de qué es un puerto realmente. 
+Luego le hice la pregunta a mis colegas en la oficina, y nadie me pudo dar una respuesta concreta. ¡Cómo es posible que todos usemos puertos en nuestro día a día sin saber realmente qué son!
 
-Esto es muy común en el mundo del software: saber como usar algo sin entenderlo. No hay nada de malo con eso, pero yo considero que comprender un tema con profundidad es muy valioso.
-
-Es por esto que en este artículo vamos a explorar los puertos en detalle, con el enfoque de responder a las siguientes preguntas:
+Por esta razón decidí escribir este artículo. Vamos a explorar en detalled que son los puertos, con el enfoque de responder las siguientes preguntas:
 
 - ¿Un puerto es una abstracción de software, o algo físico en mi hardware?
 - ¿Cuantos puertos existen en mi computadora?
