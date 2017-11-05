@@ -14,13 +14,13 @@ app.listen(3000, function() {
 	console.log("Escuchando en el puerto 3000")
 })
 ```
-¿Qué es ese número 3000? La respuesta de muchos sería:
+¿Alguna vez te has preguntado qué es ese número 3000? Al hacerle esa pregunta a algunos amigos, todos respondieron algo como lo siguiente:
 
 > "Es un puerto. Tiene algo que ver con el networking. En el caso de un servidor web, necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP."
 
-Esta repuesta responde a la pregunta: ¿Para qué usamos los puertos? Pero yo consideró que muchos no saben la respuesta a ¿Qué es un puerto?
+Sus explicaciones dejan claro que saben como usar un puerto, pero que no estan muy seguros de que es un puerto realmente.
 
-Esta pregunta es el enfoque principal de este artículo. Vamos a  explorar los puertos en detalle para responder lo siguiente:
+Es por esto que en este artículo vamos a explorar los puertos en detalle, con el enfoque de responder a las siguientes preguntas:
 
 - ¿Un puerto es una abstracción de software, o algo físico en mi hardware?
 - ¿Cuantos puertos existen en mi computadora?
