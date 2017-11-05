@@ -109,4 +109,4 @@ Al principio esto te parecerá difícil de entender. Asegúrate de separar en tu
 
 Como puedes ver, los puertos no son más que una abstracción para permitir a muchos procesos enviar y recibir paquetes simultáneamente. Espero haber resuelto tus dudas, pero si algo no está claro deja un comentario abajo y te responderé.
 
-Si te gustó este artículo, la mejor manera de apoyarnos es compartiéndolo con tus amigos. ¡Déjanos saber tu opinión! Te interesa aprender más sobre el networking?
+Si te gustó este artículo, la mejor manera de apoyarnos es compartiéndolo con tus amigos. ¡Déjanos saber tu opinión! ¿Te interesa aprender más sobre el networking?
