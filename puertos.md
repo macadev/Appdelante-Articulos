@@ -79,7 +79,7 @@ Error: listen EACCES 0.0.0.0:80
     ...
 ```
 
-¡Pero si corres el script con `sudo` verás que funcionará!
+¡Pero si corres el script con `sudo` verás que funciona!
 
 
 ```
