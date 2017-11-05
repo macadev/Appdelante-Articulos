@@ -20,7 +20,7 @@ app.listen(3000, function() {
 
 Sus explicaciones dejan claro que saben como usar un puerto, pero que no están muy seguros de qué es un puerto realmente. 
 
-Esto es muy común en el mundo del software: saber como usar algo sin entenderlo. No hay nada de malo con ello, pero el explorar conceptos que pasamos por alto nos puede abrir las puertos a muchos temas interesantes.
+Esto es muy común en el mundo del software: saber como usar algo sin entenderlo. No hay nada de malo con eso, pero yo considero que comprender un tema con profundidad es muy valioso.
 
 Es por esto que en este artículo vamos a explorar los puertos en detalle, con el enfoque de responder a las siguientes preguntas:
 
