@@ -49,7 +49,7 @@ A medida que las computadoras se hicieron más rápidas surgió la posibilidad d
   <img src="https://github.com/macadev/Appdelante-Articulos/blob/master/imagenes/ports_explained_2.png"/>
 </p>
 
-Sin el concepto de un puerto tu sistema operativo no sabría a qué proceso entregarle un paquete que llega por la red. Es como si llegara una carta a un edificio sin indicar el número del apartamento al que está destinada. ¿Cómo sabría el cartero a quien entregarle la carta?
+Sin el concepto de un puerto tu sistema operativo no sabría a qué proceso entregarle un paquete que llega por la red. Es como si llegara una carta a un edificio sin indicar el número del apartamento al que está destinada. ¿Cómo sabría el cartero a quién entregarle la carta?
 
 ## ¿Cómo son asignados los puertos?
 
@@ -65,7 +65,7 @@ Los puertos reservados son también llamados "puertos bien conocidos". Son todos
 - Si el tráfico web es seguro, se utiliza el puerto 443 para el protocolo HTTPS.
 - El puerto 22 es comúnmente usado para establecer conexiones por SSH.
 
-Estos son solo unos ejemplos, hay muchos otros puertos reservados. Es importante saber que estos protocolos no requieren estos puertos específicos para funcionar, pero adoptar estos estándares nos quita un dolor de cabeza a todos los programadores. Imagina si no hubiese un puerto estándar para HTTP. Tendrías que escribir URLs como www.google.com:56799 para accesar servidores en el puerto que están escuchando. ¡Eso sería horrible!
+Estos son solo unos ejemplos, hay muchos otros puertos reservados. Es importante saber que estos protocolos no requieren estos puertos específicos para funcionar, pero adoptar estándares nos quita un dolor de cabeza a todos los programadores. Imagina si no hubiese un puerto estándar para HTTP. Tendrías que escribir URLs como www.google.com:56799 para accesar servidores en el puerto que están escuchando. ¡Eso sería horrible!
 
 ## ¿Por qué los puertos reservados necesitan "root access" (sudo)?
 
