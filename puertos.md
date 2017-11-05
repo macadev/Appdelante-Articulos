@@ -29,7 +29,7 @@ Por esta razón decidí escribir este artículo. Vamos a explorar en detalle qu�
 
 ## El origen de los puertos
 
-Repasemos por un momento el concepto más fundamental de la internet: **las direcciones**. 
+Repasemos por un momento el concepto más fundamental detrás del internet: **las direcciones**. 
 
 Todo en la web tiene una dirección, justo como en tu ciudad cada edificio tiene una dirección. Esta abstracción es lo que permite al servicio de correo hacer llegar cartas y paquetes a tu casa. La web funciona exactamente igual. Todos los dispositivos, desde smartphones hasta laptops y servidores, tienen una dirección de IP que es usada para hacerles llegar paquetes de información. El servidor de Appdelante usa tu dirección de IP para mandarte los paquetes que contienen la página web que estás leyendo en este instante.
 
@@ -53,7 +53,7 @@ Sin el concepto de un puerto tu sistema operativo no sabría a qué proceso entr
 
 ## ¿Cómo son asignados los puertos?
 
-Los puertos son asignados por el sistema operativo de tu dispositivo cada vez que un proceso va a hacer un pedido por la internet. Por ejemplo, cuando abres una página web, tu navegador le pide al sistema operativo un puerto para poder recibir la respuesta del pedido que va a enviar. Luego de recibir la respuesta, el navegador libera el puerto para que el sistema operativo lo pueda volver a asignar.
+Los puertos son asignados por el sistema operativo de tu dispositivo cada vez que un proceso va a hacer un pedido por el internet. Por ejemplo, cuando abres una página web, tu navegador le pide al sistema operativo un puerto para poder recibir la respuesta del pedido que va a enviar. Luego de recibir la respuesta, el navegador libera el puerto para que el sistema operativo lo pueda volver a asignar.
 
 El número de puerto que te otorga el sistema operativo es aleatorio. Sin embargo, hay algunos puertos que son reservados por el sistema operativo para ciertos protocolos y usos.
 
