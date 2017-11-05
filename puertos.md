@@ -18,7 +18,9 @@ app.listen(3000, function() {
 
 > "Es un puerto. Tiene algo que ver con el networking. En el caso de un servidor web, necesitas escuchar en un puerto para que puedas recibir mensajes de HTTP."
 
-Sus explicaciones dejan claro que saben como usar un puerto, pero que no estan muy seguros de que es un puerto realmente.
+Sus explicaciones dejan claro que saben como usar un puerto, pero que no están muy seguros de qué es un puerto realmente. 
+
+Esto es muy común en el mundo del software: saber como usar algo sin entenderlo. No hay nada de malo con ello, pero el explorar conceptos que pasamos por alto nos puede abrir las puertos a muchos temas interesantes.
 
 Es por esto que en este artículo vamos a explorar los puertos en detalle, con el enfoque de responder a las siguientes preguntas:
 
