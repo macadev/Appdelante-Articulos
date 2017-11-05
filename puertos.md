@@ -69,7 +69,7 @@ Es importante denotar que los protocolos que utilizan los puertos reservados tam
 
 ## ¿Por qué los puertos reservados necesitan "root access" (sudo)?
 
-Si tomas el ejemplo de código al principio de este artículo y cambias el puerto a 80, verás que correr este script con Node.js te dará el siguiente error:
+Si tomas el código al principio de este artículo, cambias el puerto de 3000 a 80 y lo corres con Node.js, veras el siguiente error:
 
 ```
 $ node app.js
