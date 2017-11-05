@@ -65,7 +65,7 @@ Los puertos reservados son también llamados "puertos bien conocidos". Son todos
 - Si el tráfico web es seguro, se utiliza el puerto 443 para el protocolo HTTPS.
 - El puerto 22 es comúnmente usado para establecer conexiones por SSH.
 
-Estos son solo unos ejemplos, hay muchos otros puertos reservados. Es importante saber que estos protocolos no requieren estos puertos específicos para funcionar, pero adoptar estándares nos quita un dolor de cabeza a todos los programadores. Imagina si no hubiese un puerto estándar para HTTP. Tendrías que escribir URLs como www.google.com:56799 para accesar servidores en el puerto que están escuchando. ¡Eso sería horrible!
+Es importante saber que estos protocolos no requieren estos puertos específicos para funcionar, pero adoptar estándares nos quita un dolor de cabeza a todos los programadores. Imagina si no hubiese un puerto estándar para HTTP. Tendrías que escribir URLs como www.google.com:56799 para accesar servidores en el puerto que están escuchando. ¡Eso sería horrible!
 
 ## ¿Por qué los puertos reservados necesitan "root access" (sudo)?
 
