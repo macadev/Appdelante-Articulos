@@ -31,7 +31,7 @@ Por esta razón decidí escribir este artículo. Vamos a explorar en detalle que
 
 Repasemos por un momento el concepto más fundamental de la internet: **las direcciones**. 
 
-Todo en la web tiene una dirección, justo como en tu ciudad cada edificio tiene una dirección. Esta abstracción que inventamos los humanos es lo que permite al servicio de correo hacer llegar cartas y paquetes a tu casa. La web funciona exactamente igual. __Todos los dispositivos, desde smartphones hasta laptops y servidores, tienen una dirección de IP__. ¡El servidor de Appdelante usa tu dirección de IP para mandarte los paquetes que contienen la página web que estás leyendo en este instante!
+Todo en la web tiene una dirección, justo como en tu ciudad cada edificio tiene una dirección. Esta abstracción que inventamos los humanos es lo que permite al servicio de correo hacer llegar cartas y paquetes a tu casa. La web funciona exactamente igual. Todos los dispositivos, desde smartphones hasta laptops y servidores, tienen una dirección de IP. ¡El servidor de Appdelante usa tu dirección de IP para mandarte los paquetes que contienen la página web que estás leyendo en este instante!
 
 Hace mucho tiempo, las computadoras solo podían correr un programa a la vez. Esto significa que con solo tener la dirección IP de otro dispositivo, podías hacerle llegar paquetes de información a ese único programa.
 
