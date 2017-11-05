@@ -39,7 +39,7 @@ Hace mucho tiempo, las computadoras solo podían correr un programa a la vez. Es
   <img src="https://github.com/macadev/Appdelante-Articulos/blob/master/imagenes/ports_explained.png"/>
 </p>
 
-A medida que las computadoras se hicieron más rápidas surgió la posibilidad de correr muchos programas al mismo tiempo. No solo eso, sino que todos ellos pueden estar enviando paquetes al internet simultáneamente. Por ejemplo, en tu navegador puedes estar leyendo este artículo mientras tienes a la aplicación de WhatsApp abierta en tu Desktop. De aquí surge una pregunta bastante sencilla:
+A medida que las computadoras se hicieron más rápidas, surgió la posibilidad de correr muchos programas al mismo tiempo. No solo eso, sino que todos ellos pueden estar enviando paquetes al internet simultáneamente. Por ejemplo, en tu navegador puedes estar leyendo este artículo mientras tienes a la aplicación de WhatsApp abierta en tu Desktop. De aquí surge una pregunta bastante sencilla:
 
 > ¿Cómo nos aseguramos que los paquetes destinados a WhatsApp lleguen a ella y los paquetes destinados al navegador lleguen a él?
 
