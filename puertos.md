@@ -87,9 +87,9 @@ $ sudo node app.js
 Escuchando en el puerto 80
 ```
 
-¿A qué se debe esto? Pues se trata de una medida de seguridad que ha existido en sistemas operativos como Unix desde los años 80. En esa época no existían las computadoras personales. En su lugar, existían computadoras a las que muchísimos usuarios se podían conectar al mismo tiempo. En muchos casos no era posible confiar en todos los usuarios (¡puede que alguno tuviese malas intenciones!). Hacer que los "puertos bien conocidos" requieran "root access" significa que solo el administrador puede correr procesos en ellos. 
+¿A qué se debe esto? Pues se trata de una medida de seguridad que ha existido en sistemas operativos como Unix desde los años 80. En esa época, no existían las computadoras personales. En su lugar, existían computadoras a las que muchísimos usuarios se podían conectar al mismo tiempo. En muchos casos no era posible confiar en todos los usuarios (¡puede que alguno tuviese malas intenciones!). Hacer que los "puertos bien conocidos" requieran "root access" significa que solo el administrador puede correr procesos en ellos. 
 
-Imagina si un usuario malévolo tratase de cambiar el proceso para SSH por el puerto 22 con uno suyo que robase contraseñas. ¡No podría hacerlo! Solo el administrador tiene root access. Hoy en día esta medida de seguridad es un poco obsoleta, porque ahora todos tenemos nuestras propias computadoras. ¿Cuándo fue la última vez que te conectaste a un servidor compartido? Quizás en tu días en la universidad, pero no es muy común hoy en día.
+Imagina si un usuario malévolo tratase de cambiar el proceso para SSH por el puerto 22 con uno suyo que robase contraseñas. ¡No podría hacerlo! Solo el administrador tiene root access. Hoy en día esta medida de seguridad es un poco obsoleta, porque ahora todos tenemos nuestras propias computadoras. ¿Cuándo fue la última vez que te conectaste a un servidor compartido? Quizás en tu días en la universidad, pero aún así no es algo muy común.
 
 ## ¿Cuantos puertos tiene mi computadora?
 
