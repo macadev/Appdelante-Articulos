@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/macadev/Appdelante-Articulos/blob/master/imagenes/puertos_banner.png"/>
+  <img src="https://github.com/macadev/Appdelante-Articulos/blob/master/imagenes/puertos_banner2.png"/>
 </p>
 
 # ¿Qué son los puertos?
